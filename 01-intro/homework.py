@@ -65,8 +65,6 @@ print(
 print("Median horsepower:", df["horsepower"].median())
 print("Most frequent horsepower:", df["horsepower"].mode()[0])
 
-most_frequent = df["horsepower"].mode()[0]
-
 # %%
 # Fill missing horsepower values with the most frequent value
 most_frequent = df["horsepower"].mode()[0]
